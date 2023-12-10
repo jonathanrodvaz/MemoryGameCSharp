@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\cellphone.png" />
+    <None Remove="Resources\clock.png" />
+    <None Remove="Resources\dog.png" />
+    <None Remove="Resources\fire.png" />
+    <None Remove="Resources\light_bulb.png" />
+    <None Remove="Resources\lion.png" />
+    <None Remove="Resources\puzzle.png" />
+    <None Remove="Resources\star.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\cellphone.png" />
+    <EmbeddedResource Include="Resources\clock.png" />
+    <EmbeddedResource Include="Resources\dog.png" />
+    <EmbeddedResource Include="Resources\fire.png" />
+    <EmbeddedResource Include="Resources\light_bulb.png" />
+    <EmbeddedResource Include="Resources\lion.png" />
+    <EmbeddedResource Include="Resources\puzzle.png" />
+    <EmbeddedResource Include="Resources\star.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

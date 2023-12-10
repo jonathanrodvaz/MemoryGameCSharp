@@ -1,1 +1,1 @@
-# MemoryGameCSharp
+Proyecto "Memory Game" en C#. Octava lección del curso de Udemy "C# Para Principiantes: Curso Práctico - C# en 15 Proyectos" por Gabriel Moroni.
