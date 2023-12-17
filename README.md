@@ -1,1 +1,1 @@
-Proyecto "Memory Game" en C#. Octava lección del curso de Udemy "C# Para Principiantes: Curso Práctico - C# en 15 Proyectos" por Gabriel Moroni.
+Proyecto "Memory Game" en C#. Séptima lección del curso de Udemy "C# Para Principiantes: Curso Práctico - C# en 15 Proyectos" por Gabriel Moroni.
